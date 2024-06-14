@@ -1,0 +1,22 @@
+*{
+    margin:0%;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: auto;
+    height: 10vh; 
+    background-color:#75A47F;
+    padding: 5px;
+}
+.espaco{
+    margin: 40px;
+    color: #FBF8DD;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#item3{
+    text-decoration: none;
+}
