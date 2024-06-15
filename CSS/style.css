@@ -1,0 +1,139 @@
+*{
+    margin:0%;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: auto;
+    height: 10vh; 
+    background-color:#75A47F;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.espaco{
+    margin: 20px;
+    color: #FBF8DD;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+}
+
+#item3{
+    text-decoration: none;
+}
+
+img{
+    float:left;
+    margin: 10px;
+}
+
+#fundo{
+    background-color: #A3B6BA;
+    padding: 3rem;
+    font-size: 25px;
+    margin-bottom: 2rem;
+    margin-left: 11rem;
+    margin-right: 11rem;
+}
+
+#card1{
+    background-color: #BACD92;
+    padding: 2rem;
+    width: 300px;
+    height: 410px;
+    border-radius: 35px;
+    margin-right: 10px;
+    margin-left: 15rem;
+}
+
+#card2{
+    background-color: #BACD92;
+    padding: 2rem;
+    width: 300px;
+    height: 410px;
+    border-radius: 35px;
+    margin-right: 10px;
+    margin-left: 8rem;
+}
+
+#container2{
+    display: flex;
+    align-items:end;
+}
+
+.cor{
+    text-align: center;
+    margin-top: 1px;
+    font-size: 25px;
+    color: #FBF8DD;
+    font-family: "Roboto Slab", serif;
+}
+
+iframe{
+    border-radius: 10px;
+    margin-top: 11px;
+    margin-bottom: 18px;
+}
+
+#Localização{
+    text-align: center;
+    font-size: 18px;
+}
+
+#processo{
+    text-align: center;
+    font-size: 18px;
+}
+
+#Cursos{
+    margin-top: 50px;
+}
+
+#h2{
+    background-color: #75A47F;
+    color: #FBF8DD;
+    text-align:center;
+    padding: 15px;
+    margin-left: 11rem;
+    margin-right: 11rem;
+    font-family: "Roboto Slab", serif; 
+}
+
+#imagem{
+    float: left;
+    margin-left: 11rem;
+    height: 400px;
+}
+
+#paracurso{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#Cursos2{
+    background-color: #A3B6BA;
+    padding: 20px;
+    height: 320px;
+    margin-left: 11rem;
+    margin-right: 11rem;
+    margin-top: 20px;
+}
+
+button{
+    background-color: #BACD92;
+    padding: 8px;
+    border: 2px solid #FBF8DD;
+    border-radius: 5px;
+    margin-left: 34em;
+    margin-top: 2em;
+}
+
+button:hover{
+    background-color: #FBF8DD;
+    border: 3px solid #BACD92;
+}
