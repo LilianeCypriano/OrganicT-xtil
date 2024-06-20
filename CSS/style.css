@@ -143,6 +143,21 @@ button:hover{
     border: 3px solid #BACD92;
 }
 
+#modulo{
+    background-color:#FBF8DD;
+    padding: 5%;
+    margin-top: 3%;
+}
+
+#modulo1{
+    background-color: #BACD92;
+    padding: 5%;
+}
+
+
+
+
+
 
 @media (max-width: 304px){
     body{
