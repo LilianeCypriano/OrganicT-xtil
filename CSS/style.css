@@ -85,15 +85,20 @@ iframe{
     width: 100%;
     height: 50%;
 }
+#mapa{
+    height: 50%;
+}
 
 #Localização{
     text-align: center;
-    font-size: 18px;
+    font-size: 30px;
+    margin-top: 5%;
 }
 
 #processo{
     text-align: center;
-    font-size: auto;
+    font-size: 30px;
+    margin-top: 3%;
 }
 
 #Cursos{
@@ -147,11 +152,107 @@ button:hover{
     background-color:#FBF8DD;
     padding: 5%;
     margin-top: 3%;
+    height: 120vh;
 }
 
+/*Cursos Módulo 3*/
 #modulo1{
     background-color: #BACD92;
-    padding: 5%;
+    padding: 3%;
+    border-radius: 50px;
+    margin-bottom: 8%;
+}
+
+#modulo1:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    width: 88%;
+}
+
+#h2m{
+    margin-bottom: 2%;
+}
+
+#sustentabilidade{
+    line-height: 190%;
+    font-size: 25px;
+    color: white;
+}
+
+/*Cursos Módulo 2*/
+#modulo2{
+    background-color: #BACD92;
+    padding: 3%;
+    border-radius: 50px;
+    margin-bottom: 8%;
+}
+
+#modulo2:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    width: 88%;
+}
+
+#modasus{
+    margin-bottom: 2%;
+}
+
+#moda{
+    line-height: 190%;
+    font-size: 25px;
+    color: white;
+}
+
+#modulo3{
+    background-color: #BACD92;
+    padding: 3%;
+    border-radius: 50px;
+    margin-bottom: 8%;
+}
+
+#modulo3:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    width: 88%;
+}
+
+#Produção{
+    margin-bottom: 2%;
+}
+
+#ação{
+    line-height: 190%;
+    font-size: 25px;
+    color: white;
+}
+
+#container3{
+    display: grid;
+    align-items: center;
+    background-color: #75A47F;
+    padding: 3%;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+}
+
+.imagenslogos{
+    height: 4vh;
+    width: 40px;
+}
+
+#textologos{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
 }
 
 
@@ -159,9 +260,9 @@ button:hover{
 
 
 
-@media (max-width: 304px){
+
+@media (max-width: 380px){
     body{
-        background-color: pink;
         width: 100%;
     }
     #fundo{
@@ -186,6 +287,12 @@ button:hover{
         height: 30vh;
         margin-left: 0;
     }
+    #Localização{
+        font-size: 20px;
+    }
+    #processo{
+        font-size: 16px;
+    }
     #Cursos2{
     height: 82vh;
     margin-left: 0;
@@ -194,4 +301,17 @@ button:hover{
     button{
         margin-left: 0;
     }
+    #modulo{
+        text-align: center;
+    }
+    #h2m{
+        margin-bottom: 10%;
+    }
+    #modasus{
+       margin-bottom: 12%;
+    }
+    #Produção{
+        margin-bottom: 12%;
+    }
 }
+
