@@ -13,16 +13,26 @@
 
 <body>
     <header id="container">
-        <img class="imagem1" src="" alt="">
+        <nav>
+            <img id="logo" src="./IMG/logo.png" width="70px" height="68x" alt="Logo da empresa">
+            <a id="aimg" data-link="FÁBRICA" href="">FÁBRICA</a>
+        
+          <ul id="menuhorizontal">
+            <li><a href="" data-link="HOME" >HOME</a></li>
+            <li><a href="" data-link="QUEM SOMOS" >QUEM SOMOS</a></li>
+            <li><a href="" data-link="CONTATO" >CONTATO</a></li>
+          </ul>
+        </nav>
+        <!-- <img class="imagem1" src="" alt="">
         <p class="espaco">FÁBRICA</p>
         <a id="item3" href="">
             <p class="espaco">HOME</p>
-        </a>
+        </a> -->
     </header>
     <main>
         <div id="fundo">
             <img id="imagem2" src="./IMG/download.jfif" alt="">
-            <p>A Fábrica oferece uma visão geral das instalações, que operam com sustentabilidade e responsabilidade
+            <p id="parafabrica">A Fábrica oferece uma visão geral das instalações, que operam com sustentabilidade e responsabilidade
                 social, garantindo condições justas de trabalho e processos ecológicos.</p>
         </div>
         <div id="container2">
@@ -50,23 +60,28 @@
                     garantir qualidade. Dependendo do material ele passa pelo processo de lavagem e secagem, para que
                     esteja
                     100%
-                    descontaminado, e dependo do material ele é moído e passado pela difusão.</p>
+                    descontaminado, e dependendo do material ele é moído e passado pela difusão.</p>
             </div>
         </div>
 
         <div id="Cursos">
             <h2 id="h2">Cursos</h2>
-            <img id="imagem" src="./IMG/ddf15fe8-4ce2-4279-b348-63135787ff8d.jfif" alt="">
+            <!-- <div class="foto" id="foto1">
+                <a href="#foto1"> -->
+                    <img onclick="clique()" id="imagem" src="./IMG/ddf15fe8-4ce2-4279-b348-63135787ff8d.jfif" alt="Camisa">
+                </a>
+            <!-- </div> -->
+            <!-- <img id="imagem" src="./IMG/ddf15fe8-4ce2-4279-b348-63135787ff8d.jfif" alt=""> -->
             <div id="Cursos2">
                 <p id="paracurso">Curso 100% gratuito , aberto para todas as idades a partir dos 14 anos e pessoas com
                     deficiência a partir
-                    dos 15 anos.<br><br>Carga horária total de 40 horas, duração de dois meses de segunda a sexta.</p>
+                    dos 15 anos.<br>Carga horária total de 40 horas, duração de dois meses de segunda a sexta.</p>
                 <a href="">
                     <button>Saiba mais</button>
                 </a>
             </div>
         </div>
-        <div>
+        <div id="modulao">
             <div id="modulo">
                 <h2 id="h2m">MODULO 1<br> Introdução á sustentabilidade</h2>
                 <div id="modulo1">
@@ -98,17 +113,29 @@
                         •  O futuro da moda sustentável: desafios e oportunidades.</p>
                 </div>
             </div>
-        <footer id="container3">
-            <p id="textologos">Conecte-se conosco</p>
-            <img class="imagenslogos" src="./IMG/face.png" alt="">
-            <img class="imagenslogos" src="./IMG/whats.png" alt="">
-            <img class="imagenslogos" src="./IMG/instagram.png" alt="">
-        </footer>
 
-
-
-
-
+            <footer>
+                <div>
+                <h2>Siga-nos</h2>
+                  <div id="redes">
+                    <a href="#"><img class="img" src="./ASSETS/imagem/facebook.png" width="29" height="29" /></a>
+                    <a href="#"><img class="img" src="./ASSETS/imagem/instagram.png" width="27" height="30" /></a>
+                    <a href="#"><img class="img" src="./ASSETS/imagem/whatsapp.png" width="26"  height="30"/></a>
+                  </div>
+                  
+                  <h2>ORGANICTÊXTIL  pelo mundo</h2>
+                  <p class="paises">Brasil  | Alemanha | Áustria | China | Espanha | França | Itália  </p>
+              
+                <div id="pagamento">
+                  <h3>Formas de Pagamento</h3>
+                  <img class="img1" src="./ASSETS/imagem/elo.png" width="45" height="29">
+                  <img class="img1" src="./ASSETS/imagem/mastercard.png" width="57" height="30">
+                  <img class="img1" src="./ASSETS/imagem/hipercard.png" width="50"  height="30">
+                  <img class="img1" src="./ASSETS/imagem/visa.png" width="40"  height="37">
+              </div>
+                  <p class="rodape"> ©2024 ORGANICTÊXTIL - Todos os direitos reservados</p>
+                </footer>
+    <script src="./JS/main.js"></script>
     </main>
 </body>
 

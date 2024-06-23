@@ -1,23 +1,56 @@
-
 *{
     margin:auto;
     padding: auto;
-   
-
 }
 
 #container{
-    display: grid;
+    background-color: #75A47F;
+    padding: 2%;
+    margin-bottom: 2%;
+    /* display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: auto;
     height: 10vh; 
     background-color:#75A47F;
-    align-content: center;
+    align-content: center; */
     /* padding: 5px; */
     /* margin-bottom: 3%;
     margin-left: 10rem;
     margin-right: 10rem; */
 }
+nav{
+    display: grid;
+    grid-template-columns: 10px 6PX 500px;
+    column-gap: 20%;
+    justify-content:space-around;
+}
+
+ul, li{
+    display: inline;
+}
+
+nav, ul, li, a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 115%;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav, ul, li, a:hover{
+    color: #a3b6ba;
+ }
+
+#aimg{
+    color: #fff;
+    text-decoration: none;
+    font-size: 140%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#aimg:hover{
+   color: #a3b6ba;
+}
+
 .espaco{
     margin: 20px;
     color: #FBF8DD;
@@ -30,11 +63,17 @@
     float: left;
     height: 40vh;
     margin-right: 2%;
-    width: 60%;
+    width: 40%;
 }
 
 #item3{
     text-decoration: none;
+}
+
+#parafabrica{
+    font-size: 25px;
+    margin-top: 5%;
+    line-height: 140%;
 }
 
 #fundo{
@@ -42,8 +81,7 @@
     line-height: 120%;
     padding: 2%;
     height: 50vh;
-    font-size: 25px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     width: 100%;
     box-sizing: border-box;
 }
@@ -51,8 +89,8 @@
 #card1{
     background-color: #BACD92;
     padding: 2rem;
-    width: 50%;
-    height: 50vh;
+    width: 30%;
+    height: 100vh;
     border-radius: 8%;
     margin-right: 5%;
 }
@@ -60,8 +98,8 @@
 #card2{
     background-color: #BACD92;
     padding: 2rem;
-    width: 50%;
-    height: 50vh;
+    width: 30%;
+    height: 100vh;
     border-radius: 8%;
 }
 
@@ -97,12 +135,12 @@ iframe{
 
 #processo{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 3%;
 }
 
 #Cursos{
-    margin-top: 50px;
+    margin-top: 15%;
 }
 
 #h2{
@@ -115,13 +153,12 @@ iframe{
 
 #imagem{
     float: left;
-    margin-left: 11rem;
     height: 400px;
 }
 
 #paracurso{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 6%;
     font-size: 30px;
     line-height: 40px;
 }
@@ -135,17 +172,25 @@ iframe{
 }
 
 button{
-    background-color: #BACD92;
+    background-color:#BACD92;
     padding: 8px;
+    width: 8%;
+    height: 8vh;
+    font-size: 14px;
     border: 2px solid #FBF8DD;
     border-radius: 5px;
-    margin-left: 34em;
+    margin-left: 50em;
     margin-top: 2em;
 }
 
 button:hover{
-    background-color: #FBF8DD;
-    border: 3px solid #BACD92;
+    background-color:#FBF8DD ;
+    border: 3px solid  #BACD92;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 #modulo{
@@ -235,24 +280,65 @@ button:hover{
     color: white;
 }
 
-#container3{
-    display: grid;
-    align-items: center;
+footer {
     background-color: #75A47F;
-    padding: 3%;
-    grid-template-columns: 100px 100px 100px;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    /* margin:0;
+    padding:0; */
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: center;
+} 
+
+footer h2 {
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 0.1rem;
+}
+
+.img{
+    margin-bottom: 1px;
+    list-style-type: none;
+    border-radius: 0.5rem;
+    opacity: 0.5;
+}
+
+#redes{
+    display: flex;
+    justify-content: center;    
+}
+
+#redes:hover img {
+   opacity: 50;
+   background-color: #a3b6ba;
+   letter-spacing: 0.5rem;
+}
+
+#pagamento{
+    display: flex;
     justify-content: center;
 }
 
-.imagenslogos{
-    height: 4vh;
-    width: 40px;
+h3{
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    letter-spacing: 0.1rem;
 }
 
-#textologos{
-    font-size: 40px;
-    font-weight: 900;
-    color: white;
+.img1{
+    margin-top: 30px;
 }
 
 
@@ -261,13 +347,16 @@ button:hover{
 
 
 
-@media (max-width: 380px){
+@media (max-width: 316px){
     body{
         width: 100%;
     }
     #fundo{
         height: 68vh;
         box-sizing: border-box;
+    }
+    #parafabrica{
+        font-size: 20px;
     }
     #imagem2{
         float: none;
@@ -281,25 +370,41 @@ button:hover{
     }
     #card1, #card2{
        width: 76%;
+       height: 80vh;
     }
     #imagem{
         width: 100%;
-        height: 30vh;
+        height: 42vh;
         margin-left: 0;
+        margin-bottom: 5%;
+    }
+    #imagem:hover{
+        position: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -o-transform: none;
+        -ms-transform: none;
+        transform: translate(0%, 0%);
+        z-index: 10;
+    }
+    #paracurso{
+        font-size: 20px;
     }
     #Localização{
         font-size: 20px;
+        margin-top: 12%;
     }
     #processo{
         font-size: 16px;
     }
     #Cursos2{
-    height: 82vh;
+    height: 98vh;
     margin-left: 0;
     margin-top: 0;
     }
     button{
-        margin-left: 0;
+        margin-left: 12em;
+        width: 30%;
     }
     #modulo{
         text-align: center;
