@@ -57,6 +57,31 @@ p {
 .section div img {
     width: 50px;
 }
+
+.contato{
+    color: #75A47F;
+}
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.contact-info {
+    width: 100%;
+    max-width: 30%;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+.contact-info {
+    width: 50px;
+}
 footer{
     color: #fff;
     font-size: 1.1rem;
@@ -202,6 +227,7 @@ a{
     .intro {
         flex-direction: row;
     }
+
     .imagemetiqueta {
         float: left;
     }
@@ -222,3 +248,4 @@ a{
         width: 30%;
     }
 }
+
