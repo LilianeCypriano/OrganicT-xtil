@@ -3,26 +3,19 @@
     padding: auto;
 }
 
-#container{
-    background-color: #75A47F;
-    padding: 2%;
-    margin-bottom: 2%;
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: auto;
-    height: 10vh; 
-    background-color:#75A47F;
-    align-content: center; */
-    /* padding: 5px; */
-    /* margin-bottom: 3%;
-    margin-left: 10rem;
-    margin-right: 10rem; */
-}
 nav{
     display: grid;
     grid-template-columns: 10px 6PX 500px;
     column-gap: 20%;
     justify-content:space-around;
+}
+
+.collapsenavbar-collapse{
+    background-color: #75A47F;
+}
+
+.container-fluid{
+    background-color: #75A47F;
 }
 
 ul, li{
@@ -166,7 +159,7 @@ iframe{
 #Cursos2{
     background-color: #A3B6BA;
     padding: 20px;
-    height: 320px;
+    height: 380px;
     margin-left: 11rem;
     margin-top: 20px;
 }
@@ -197,7 +190,7 @@ button:hover{
     background-color:#FBF8DD;
     padding: 5%;
     margin-top: 3%;
-    height: 120vh;
+    height: 160vh;
 }
 
 /*Cursos Módulo 3*/
@@ -280,19 +273,17 @@ button:hover{
     color: white;
 }
 
-footer {
-    background-color: #75A47F;
-    font-size: 62.5%;
-    font-family: 'Poppins', sans-serif;
-    /* margin:0;
-    padding:0; */
-}
-
-footer p {
+footer{
     color: #fff;
     font-size: 1.1rem;
     text-align: center;
+    background-color: #75A47F;
+    /* margin-top: 250px; */
 } 
+
+#letras{
+    font-size: 1.1rem;
+}
 
 footer h2 {
     color: #fff;
@@ -304,27 +295,41 @@ footer h2 {
     letter-spacing: 0.1rem;
 }
 
-.img{
+.img {
     margin-bottom: 1px;
     list-style-type: none;
     border-radius: 0.5rem;
     opacity: 0.5;
 }
 
-#redes{
-    display: flex;
-    justify-content: center;    
+.redes{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    align-items: center;
+    justify-content: center;
 }
 
-#redes:hover img {
+.redes:hover img {
    opacity: 50;
    background-color: #a3b6ba;
    letter-spacing: 0.5rem;
 }
 
+#h2{
+    font-size: 115%;
+    margin-bottom: 1%;
+}
+
 #pagamento{
-    display: flex;
     justify-content: center;
+}
+
+#cartao1{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
 }
 
 h3{
@@ -332,20 +337,25 @@ h3{
     font-size: 1rem;
     margin-top: 20px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 6px;
     padding-bottom: 25px;
     letter-spacing: 0.1rem;
 }
 
-.img1{
-    margin-top: 30px;
+.input{
+    width: 50%;
+    padding: 10px;
+    font-size: 14px;
+    background-color:#8FBC8F;
+    margin-bottom: 6px;
 }
 
-
-
-
-
-
+a{
+    justify-content: center;     
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
 
 @media (max-width: 316px){
     body{
@@ -369,8 +379,14 @@ h3{
         row-gap: 20px;
     }
     #card1, #card2{
-       width: 76%;
+       width: 88%;
        height: 80vh;
+    }
+    .iframe{
+        height: 30vh;
+    }
+    #mapa{
+        height: 30vh;
     }
     #imagem{
         width: 100%;
@@ -408,6 +424,7 @@ h3{
     }
     #modulo{
         text-align: center;
+        height: 200vh;
     }
     #h2m{
         margin-bottom: 10%;
@@ -417,6 +434,13 @@ h3{
     }
     #Produção{
         margin-bottom: 12%;
+    }
+    #cartao1{
+        grid-template-columns: 50px 50px 50px 50px;
+        column-gap: 20px;
+    }
+    #header{
+        width: 100%;
     }
 }
 
