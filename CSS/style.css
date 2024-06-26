@@ -3,53 +3,36 @@
     padding: auto;
 }
 
-nav{
-    display: grid;
-    grid-template-columns: 10px 6PX 500px;
-    column-gap: 20%;
-    justify-content:space-around;
+#navbarNav{
+    background-color: #75A47F; 
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    margin-left: 48%;
 }
 
-.collapsenavbar-collapse{
-    background-color: #75A47F;
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+.sacola{
+    overflow: visible;
 }
 
 .container-fluid{
-    background-color: #75A47F;
+    background-color: #75A47F; 
 }
 
-ul, li{
-    display: inline;
-}
-
-nav, ul, li, a{
+#letra {
     color: #fff;
     text-decoration: none;
-    font-size: 115%;
+    font-size: 125%;
     font-family: 'Poppins', sans-serif;
+
 }
 
-nav, ul, li, a:hover{
-    color: #a3b6ba;
- }
-
-#aimg{
-    color: #fff;
-    text-decoration: none;
-    font-size: 140%;
-    font-family: 'Poppins', sans-serif;
-}
-
-#aimg:hover{
+#letra:hover{
    color: #a3b6ba;
-}
-
-.espaco{
-    margin: 20px;
-    color: #FBF8DD;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "Roboto Slab", serif;
 }
 
 #imagem2{
@@ -83,7 +66,7 @@ nav, ul, li, a:hover{
     background-color: #BACD92;
     padding: 2rem;
     width: 30%;
-    height: 100vh;
+    height: 126vh;
     border-radius: 8%;
     margin-right: 5%;
 }
@@ -92,13 +75,13 @@ nav, ul, li, a:hover{
     background-color: #BACD92;
     padding: 2rem;
     width: 30%;
-    height: 100vh;
+    height: 126vh;
     border-radius: 8%;
 }
 
 #container2{
     display: flex;
-    align-items:end;
+    margin-bottom: 2%;
 }
 
 .cor{
@@ -114,10 +97,10 @@ iframe{
     margin-top: 11px;
     margin-bottom: 18px;
     width: 100%;
-    height: 50%;
+    height: 40%;
 }
 #mapa{
-    height: 50%;
+    height: 40%;
 }
 
 #Localização{
@@ -128,19 +111,19 @@ iframe{
 
 #processo{
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     margin-top: 3%;
 }
 
 #Cursos{
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 #h2{
     background-color: #75A47F;
     color: #FBF8DD;
     text-align:center;
-    padding: 15px;
+    padding: 2%;
     font-family: "Roboto Slab", serif; 
 }
 
@@ -168,8 +151,8 @@ button{
     background-color:#BACD92;
     padding: 8px;
     width: 8%;
-    height: 8vh;
-    font-size: 14px;
+    height: 6vh;
+    font-size: 12px;
     border: 2px solid #FBF8DD;
     border-radius: 5px;
     margin-left: 50em;
@@ -190,7 +173,7 @@ button:hover{
     background-color:#FBF8DD;
     padding: 5%;
     margin-top: 3%;
-    height: 160vh;
+    height: 226vh;
 }
 
 /*Cursos Módulo 3*/
@@ -357,12 +340,12 @@ a{
     text-decoration: none;
 }
 
-@media (max-width: 316px){
+@media (max-width: 304px){
     body{
         width: 100%;
     }
     #fundo{
-        height: 68vh;
+        height: 78vh;
         box-sizing: border-box;
     }
     #parafabrica{
@@ -379,8 +362,8 @@ a{
         row-gap: 20px;
     }
     #card1, #card2{
-       width: 88%;
-       height: 80vh;
+       width: 90%;
+       height: 106vh;
     }
     .iframe{
         height: 30vh;
@@ -394,15 +377,6 @@ a{
         margin-left: 0;
         margin-bottom: 5%;
     }
-    #imagem:hover{
-        position: none;
-        -webkit-transform: none;
-        -moz-transform: none;
-        -o-transform: none;
-        -ms-transform: none;
-        transform: translate(0%, 0%);
-        z-index: 10;
-    }
     #paracurso{
         font-size: 20px;
     }
@@ -414,17 +388,20 @@ a{
         font-size: 16px;
     }
     #Cursos2{
-    height: 98vh;
+    height: 112vh;
     margin-left: 0;
     margin-top: 0;
     }
     button{
-        margin-left: 12em;
+        margin-left: 16em;
         width: 30%;
+        height: 8vh;
+        font-size: 10px;
+        margin-top: 1%;
     }
     #modulo{
         text-align: center;
-        height: 200vh;
+        height: 340vh;
     }
     #h2m{
         margin-bottom: 10%;
