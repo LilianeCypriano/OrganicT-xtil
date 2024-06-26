@@ -427,6 +427,7 @@ width: 30%;
     #imagem3{
         float: none;
         display: flex;
+        width: 100%;
     }
 
    
