@@ -15,6 +15,8 @@ body {
     margin-left: 48%;
 }
 
+
+
 nav ul {
     list-style-type: none;
     float: right;
@@ -54,7 +56,7 @@ nav ul {
 }
 
 .icones {
-    background-color: #fff;
+    background-color:#a3b6ba;
     display: flex;
     align-items: center;
     border-radius: 0.5rem;
@@ -69,7 +71,7 @@ nav ul {
 .icones:hover {
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
-    background-color: #a3b6ba; 
+    background-color:#8FBC8F; 
 }
 
 p{
@@ -192,6 +194,35 @@ legend{
     }
 
 
+    /*Carrousel*/
+
+.col{
+margin-bottom: 6%;
+align-items: center;
+justify-content: center;
+}
+ 
+.card-title{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(95, 93, 93);
+}
+
+.card-text{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(71, 70, 70);
+}
+
+.row{
+  margin-left: 4%;
+}
+
+
+/*Carrousel*/
+
+
+
 /*Card acima do rodapé*/
 
 #card{
@@ -214,6 +245,30 @@ legend{
     letter-spacing: 0.1rem;
 }
 
+.titulo{
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+ font-size: 27px;
+ color: #75A47F;
+
+}
+
+/* .carousel-control-prev{
+background-color: aqua;
+align-items: center;
+}
+
+.carousel-control-next{
+    background-color: aqua;
+} */
+
+.carousel-control-next-icon{
+background-color:#75A47F;
+}
+
+.carousel-control-prev-icon{
+background-color:#75A47F;
+}
 
 /*Card acima do rodapé*/
 
@@ -319,16 +374,36 @@ h3 {
 
 a{
     justify-content: center;     
-    font-family: 'Poppins', sans-serif;
+    
     color: #fff;
     text-decoration: none;
 }
     
 
+.sesao{
+color: black;
+}
 
+.conteudosesao{
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 1rem;
+color: rgb(58, 56, 56);;
+}
 
+.fundo{
+    background-color: #a3b6ba;
+    padding: 14px;
+}
 
+.PC{
+    font-size: 1rem;
+}
 
+input{
+background-color:#8FBC8F;
+width: 30%;
+}
 
 @media (max-width: 304px) {
     
@@ -351,11 +426,17 @@ a{
    
     #imagem3{
         float: none;
+        display: flex;
     }
 
-    .sacola{
-        display: inline-block;
-        background: url(.sacola) no-repeat;
-        display: none;
+   
+    /* .row{
+    
+       ;
     }
+
+    #carouselExampleControlsNoTouching {
+    
+    } */
 }
+
