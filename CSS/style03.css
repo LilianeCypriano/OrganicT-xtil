@@ -63,21 +63,28 @@ header a {
 
 
 .intro {
-    display: flex;
     align-items: center;
     background-color: #FBF8DD;
-    padding: 5%;
-    margin: 10%;
-    flex-direction: column;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 80vh;
 }
-.imagemetiqueta {
-    width: 100%;
-    max-width: 350px;
-    margin-right: 20px;
+.imagemetiqueta{
+   width: 40%;
+   float: left;
+   margin-right: 2%;
 }
+
+.texto{
+      margin-top: 8%;
+      font-size: 1.6rem;
+      font-family: 'Poppins', sans-serif;
+}
+
 p {
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 .section {
     background-color: #BACD92;
@@ -232,16 +239,6 @@ a{
     background-color: #fafafa;
 }
 
-.imagemetiqueta {
-    /* flex-direction: row;
-    align-items: center; */
-    float: right;
-    padding: 0.5rem;
-    gap: 0.5rem;
-    margin-right: 5%;
-    transition: 0.3s ease transform;
-} 
-
 .imagemetiqueta:hover{
     transform: scale(0.95);
 }
@@ -252,9 +249,10 @@ a{
 }
 
 #cartao1{
-    display: flex;
-    justify-content: center; 
-    margin-bottom: 16px;
+    display: grid;
+    grid-template-columns: 80px 100px 100px 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 h3 {
@@ -281,22 +279,6 @@ a{
     text-decoration: none;
 }
     
-.intro {
-    flex-direction: column;
-}
-.imagemetiqueta {
-    float: none;
-    height: auto;
-    width: 100%;
-    max-width: 350px;
-}
-
-.texto{
- font-size: 1.2rem;
- font-family: 'Poppins', sans-serif;
-}
-
-
 
 .embaixodaslogan {
     display: grid;
@@ -334,15 +316,41 @@ a{
 }
 
 
-
-
-@media (min-width: 600px) {
+@media (max-width: 304px) {
     .intro {
-        flex-direction: row;
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      height: 110vh;
     }
-
-    .imagemetiqueta {
-        float: left;
+    .imagemetiqueta{
+       width: 100%;
+    }
+    .texto{
+        font-size: 20px;
+    }
+    .botao4{
+        width: 20%;
+        font-size: 14px;
+    }
+    .labelInput{
+        display: grid;
+        grid-template-rows: 28px 76px;
+        row-gap: 10px;
+    }
+    .input{
+        width: 76%;
+    }
+    .section{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        height: 160vh;
+        width: 98%;
+        margin: 2%;
+    }
+    .section div{
+        max-width: none;
     }
 }
 /* @media (max-width: 767px) {
