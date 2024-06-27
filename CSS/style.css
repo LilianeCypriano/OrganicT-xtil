@@ -396,23 +396,22 @@ a{
 }
 
 
-#butao{
+#botaofooter{
     border: 2px solid rgb(253, 253, 253);
     border-radius: 3px;
     color: rgb(95, 93, 93);
     background-color: #a3b6ba;
     padding: 0.2em;
-    width: 4%;
-    font-size: 16px;
-    margin-left: 4px;
-    color: white;
-    text-align: center;
 }
-
-
-
+/* .botao2{
+    border: 2px solid rgb(253, 253, 253);
+    border-radius: 3px;
+    color: rgb(95, 93, 93);
+    background-color: #a3b6ba;
+    padding: 0.2em;
+} */
         
-#butao:hover{
+.botao2:hover{
     color: rgb(70, 69, 69);
     background-color: #fafafa;
 }
@@ -441,6 +440,20 @@ color: rgb(58, 56, 56);;
 input{
 background-color:#8FBC8F;
 width: 30%;
+}
+
+.botao4{
+    border: 2px solid rgb(253, 253, 253);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: #a3b6ba;
+    padding: 0.1em;
+
+}
+        
+.botao4:hover{
+    color: rgb(70, 69, 69);
+    background-color: #fafafa;
 }
 
 @media (max-width: 390px) {
@@ -475,6 +488,10 @@ width: 30%;
     .row{
         margin-left: 8%;
     }      
+    
+    .titulo6{
+    text-align: center;
+    }
 
 }
 

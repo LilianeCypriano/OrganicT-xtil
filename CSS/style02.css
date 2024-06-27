@@ -3,6 +3,43 @@
     padding: auto;
 }
 
+
+#navbarNav{
+    background-color: #75A47F; 
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    margin-left: 48%;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+.sacola{
+    overflow: visible;
+}
+
+.container-fluid{
+    background-color: #75A47F; 
+}
+
+#letra {
+    color: #fff;
+    text-decoration: none;
+    font-size: 125%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#letra:hover{
+   color: #a3b6ba;
+}
+
+
+/* 
 #navbarNav{
     background-color: #75A47F; 
     margin-top: 0.5em;
@@ -29,11 +66,18 @@ nav ul {
     font-size: 125%;
     font-family: 'Poppins', sans-serif;
 
-}
+} */
 
-#letra:hover{
+/* .nav-linkactive{
+float: left;
+} */
+
+
+
+/* #letra:hover{
    color: #a3b6ba;
-}
+} */
+
 
 #imagem2{
     float: left;
@@ -147,6 +191,8 @@ iframe{
     margin-top: 20px;
 }
 
+
+
 button{
     background-color:#BACD92;
     padding: 8px;
@@ -155,8 +201,10 @@ button{
     font-size: 12px;
     border: 2px solid #FBF8DD;
     border-radius: 5px;
-    margin-left: 50em;
-    margin-top: 2em;
+    /* margin-left: 50%;  */
+    margin-top: 2em; 
+    align-items: center;
+
 }
 
 button:hover{
@@ -304,7 +352,7 @@ footer h2 {
 }
 
 #pagamento{
-    justify-content: center;
+    align-items: center;
 }
 
 #cartao1{
@@ -340,7 +388,7 @@ a{
     text-decoration: none;
 }
 
-#butao{
+/* #butao{
     border: 2px solid rgb(253, 253, 253);
     border-radius: 3px;
     color: rgb(95, 93, 93);
@@ -356,8 +404,21 @@ a{
 #butao:hover{
     color: rgb(70, 69, 69);
     background-color: #fafafa;
-}
+} */
 
+.botao4{
+    border: 2px solid rgb(253, 253, 253);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: #a3b6ba;
+    padding: 0.1em;
+
+}
+        
+.botao4:hover{
+    color: rgb(70, 69, 69);
+    background-color: #fafafa;
+}
 @media (max-width: 304px){
     body{
         width: 100%;
@@ -412,13 +473,6 @@ a{
     }
 
     
-    button{
-        margin-left: 16em;
-        width: 30%;
-        height: 8vh;
-        font-size: 10px;
-        margin-top: 1%;
-    }
     #modulo{
         text-align: center;
         height: 340vh;
