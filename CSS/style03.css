@@ -225,6 +225,10 @@ a{
    letter-spacing: 0.5rem;
 }
 
+#letras:hover{
+    font-weight: 600;
+}
+
 .botao4{
     border: 2px solid rgb(253, 253, 253);
     border-radius: 3px;
@@ -240,7 +244,7 @@ a{
 }
 
 .imagemetiqueta:hover{
-    transform: scale(0.95);
+    transform: scale(0.95); 
 }
 
 
@@ -351,6 +355,10 @@ a{
     }
     .section div{
         max-width: none;
+    }
+    #cartao1{
+        grid-template-columns: 50px 50px 50px 50px;
+        column-gap: 10px;
     }
 }
 /* @media (max-width: 767px) {
