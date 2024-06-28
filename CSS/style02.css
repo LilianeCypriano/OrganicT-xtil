@@ -572,7 +572,7 @@ a{
 } */
 
 
-@media(max-width: 375px){
+/* @media(max-width: 375px){
     #logo{
         margin-left: 1em;
     }
@@ -646,9 +646,9 @@ a{
    #cartao1{
        grid-template-columns: 70px 80px 80px 80px;
    }
-   }
+   } */
 
-/* @media(max-width: 390px){
+@media(max-width: 390px){
     #logo{
         margin-left: 1em;
     }
@@ -722,5 +722,5 @@ a{
    #cartao1{
        grid-template-columns: 70px 80px 80px 80px;
    }
-} */
+}
 
