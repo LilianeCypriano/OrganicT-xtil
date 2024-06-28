@@ -317,12 +317,22 @@ footer{
     /* margin-top: 250px; */
 } 
 
-#letras{
+.letras{
     font-size: 1.1rem;
 }
 
-#letras:hover{
+.letras:hover{
      font-weight: 700;
+}
+
+#letrao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#sessãoca{
+    margin-left: 4px;
 }
 
 footer h2 {
