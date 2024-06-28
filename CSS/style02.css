@@ -357,7 +357,7 @@ a{
     color: rgb(70, 69, 69);
     background-color: #fafafa;
 }
-/* @media (max-width: 330px){
+@media (max-width: 330px){
     body{
         width: 100%;
     }
@@ -491,7 +491,7 @@ a{
     .container-fluid{
         padding: 4%;
     }
-} */
+}
 
 /* @media(max-width: 350px){
     #imagem2{
@@ -648,7 +648,7 @@ a{
    }
    } */
 
-@media(max-width: 390px){
+/* @media(max-width: 390px){
     #logo{
         margin-left: 1em;
     }
@@ -722,5 +722,5 @@ a{
    #cartao1{
        grid-template-columns: 70px 80px 80px 80px;
    }
-}
+} */
 
