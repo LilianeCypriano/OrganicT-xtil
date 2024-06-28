@@ -11,8 +11,6 @@
     margin-left: 48%;
 }
 
-
-
 nav ul {
     list-style-type: none;
     float: right;
@@ -359,9 +357,12 @@ a{
     color: rgb(70, 69, 69);
     background-color: #fafafa;
 }
-@media (max-width: 304px){
+@media (max-width: 320px){
     body{
         width: 100%;
+    }
+    #logo{
+        margin-left: 1em;
     }
     #fundo{
         height: 88vh;
@@ -496,6 +497,9 @@ a{
     #imagem2{
         float: none;
         width: 100%;
+    }
+    #logo{
+        margin-left: 1em;
     }
       #fundo{
         height: 92vh;
