@@ -1,12 +1,12 @@
 
-$(document).ready(function(){
-    $('.partedecima').slick({
-        slidesToShow: 2,  // Quantidade de slides visíveis por vez
-        slidesToScroll: 1,  // Quantidade de slides a serem rolados por vez
-        autoplay: true,  // Autoplay
-        autoplaySpeed: 2000,  // Velocidade do autoplay em milissegundos
-        dots: true,  // Exibir pontos de navegação
-        // variableWidth: true,
+// $(document).ready(function(){
+//     $('.partedecima').slick({
+//         slidesToShow: 2,  // Quantidade de slides visíveis por vez
+//         slidesToScroll: 1,  // Quantidade de slides a serem rolados por vez
+//         autoplay: true,  // Autoplay
+//         autoplaySpeed: 2000,  // Velocidade do autoplay em milissegundos
+//         dots: true,  // Exibir pontos de navegação
+//         // variableWidth: true,
        
         
         // responsive: [
@@ -23,8 +23,8 @@ $(document).ready(function(){
         //         }
         //     }
 //         // ]
-    });
-});
+//     });
+// });
 
 // $('#carrousel').slick({
 //     infinite: true,
@@ -98,6 +98,31 @@ $(element).slick('slickSetOption', 'speed', 5000, true);
 
 $(element).slick('unslick');
 
+
+// const adiciona = () =>{
+//   let carrinho1= document.getElementsByClassName("botao")
+//   // let carrinho = document.getElementsByClassName("botao")
+//  if(carrinho1){
+//     alert('O item foi adicionado a sacola!')
+//     let sacola = "";
+//     for (let i = 1; i <=10; i++){
+//       (sacola += carrinho * i)
+//     }
+//  }
+// }
+
+const adiciona = () => {
+  let carrinho = document.getElementsByClassName("botao");
+
+  if (carrinho.length > 0) {
+      alert("O item foi adicionado à sacola!");
+      let sacola = "";
+      for (let i = 0; i < carrinho.length; i++) {
+          sacola += carrinho[i].innerText + "opa ";
+      }
+      console.log(sacola);
+  }
+}
 
 
 

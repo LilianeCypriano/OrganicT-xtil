@@ -3,6 +3,9 @@
     padding: auto;
 }
 
+#header{
+    margin-bottom: auto;
+}
 
 #navbarNav{
     background-color: #75A47F; 
@@ -37,7 +40,6 @@ nav ul {
 
 #imagem2{
     float: left;
-    height: 40vh;
     margin-right: 2%;
     width: 40%;
     height: 50vh;
@@ -54,9 +56,10 @@ nav ul {
     line-height: 120%;
     height: 60vh;
     margin-bottom: 5%;
+    padding: 2%;
+    margin-top: 0%;
     width: 100%;
     box-sizing: border-box;
-    margin-top: none;
 }
 
 #card1{
@@ -128,7 +131,28 @@ iframe{
 #imagem{
     float: left;
     height: 400px;
+    animation: pracima 2.0s infinite ease-in-out;
 }
+
+#imagem:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+     transform: scale(1.1);
+     
+} 
+
+@keyframes pracima{
+    50% {
+        transform: translateY(-3%)
+    }
+}
+
+
+/* #botaocamisa{
+     display: none;
+} */
 
 #paracurso{
     text-align: center;
@@ -804,7 +828,7 @@ a{
         width: 98%;
     }
     #fundo{
-        height: 75vh;
+        height: 80vh;
     }
      #container2{
         display: grid;
@@ -813,7 +837,7 @@ a{
       #card1, #card2{
         margin-bottom: 2%;
         width: 90%;
-        height: 50vh;
+        height: 68vh;
       }
       #Localização{
         font-size: 26px;
@@ -840,7 +864,7 @@ a{
         padding: 4%;
      }
       #modulo{
-        height: 150vh;
+        height: 220vh;
       }
      #modulo1:hover{
        -webkit-transform: scale(1.1);
