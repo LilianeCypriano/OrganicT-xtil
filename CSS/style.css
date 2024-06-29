@@ -182,7 +182,7 @@ legend{
         /* flex-direction: row;
         align-items: center; */
         float: right;
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
         gap: 0.5rem;
         margin-right: 5%;
         transition: 0.3s ease transform;
