@@ -332,11 +332,23 @@ a{
     background-color:#a3b6ba; 
 }
 
+
 .T1{
     font-size: 0.9rem;
     text-align: center;
 }
 
+
+#top{
+    text-decoration: none;
+    background-color: #a3b6ba;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    position: fixed;
+    right:15px;
+    bottom: 35px;
+    box-shadow: 3px 3px 10px #8FBC8F;
+}
 
 @media (max-width: 304px) {
     .intro {
@@ -378,6 +390,17 @@ a{
         grid-template-columns: 50px 50px 50px 50px;
         column-gap: 10px;
     }
+
+    #top{
+        text-decoration: none;
+        background-color: #a3b6ba;
+        color: rgb(255, 255, 255);
+        padding: 4px;
+        position: fixed;
+        right:15px;
+        bottom: 35px;
+        box-shadow: 3px 3px 10px #8FBC8F;
+        }
 }
 
 

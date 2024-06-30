@@ -378,6 +378,19 @@ a{
     color: rgb(70, 69, 69);
     background-color: #fafafa;
 }
+
+#top{
+    text-decoration: none;
+    background-color: #a3b6ba;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    position: fixed;
+    right:15px;
+    bottom: 35px;
+    box-shadow: 3px 3px 10px #8FBC8F;
+}
+
+
 @media (max-width: 330px){
     body{
         width: 100%;
@@ -512,6 +525,17 @@ a{
     .container-fluid{
         padding: 4%;
     }
+
+    #top{
+        text-decoration: none;
+        background-color: #a3b6ba;
+        color: rgb(255, 255, 255);
+        padding: 4px;
+        position: fixed;
+        right:15px;
+        bottom: 35px;
+        box-shadow: 3px 3px 10px #8FBC8F;
+        }
 }
 
 /* @media(max-width: 350px){
