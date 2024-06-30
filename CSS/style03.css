@@ -82,6 +82,16 @@ header a {
       font-family: 'Poppins', sans-serif;
 }
 
+.movimento{
+    animation: semove 1.9s infinite ease-in-out;
+}
+
+@keyframes semove{
+    50% {
+        transform: translateY(-10%)
+    }
+}
+
 p {
     margin: 0;
     font-size: 1.2em;
@@ -287,12 +297,20 @@ a{
 .embaixodaslogan {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    height: 30vh;
     gap: 0.5rem;
     grid-row: 2;
     column-gap: 4;
     padding-top: 2rem;
     padding-bottom: 2rem;
     background-color: rgb(255, 255, 255);
+}
+
+#contato{
+    color: #75A47F;
+    text-align: center;
+    margin-top: 4%;
+    font-weight: 600;
 }
 
 .icones {
@@ -361,19 +379,43 @@ a{
         column-gap: 10px;
     }
 }
-/* @media (max-width: 767px) {
-    .section {
-        flex-direction: column;
+
+
+@media(max-width: 430px){
+    .intro{
+        width: 100%;
+        margin-left: 0;
+        height: 136vh;
     }
-    .section div {
-        width: 80%;
+    .imagemetiqueta{
+        width: 100%;
+        float: none;
+    }
+    .texto{
+        font-size: 24px;
+    }
+    .section{
+        width: 100%;
+        margin-left: 0;
+    }
+    .section div{
+        max-width: none;
+    }
+    .embaixodaslogan{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 12px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 90%;
+    }
+    .icones{
+        margin-left: 4em;
+        margin-right: 0;
+        padding: 4%;
+    }
+    .icones:hover{
+       
     }
 }
-@media (min-width: 768px) {
-    .section {
-        flex-direction: row;
-    }
-    .section div {
-        width: 30%;
-    }
-} */
