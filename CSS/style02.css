@@ -759,7 +759,7 @@ a{
    }
 } */
 
-@media(min-width: 430px)and (max-width:590px){
+ @media(max-width: 430px){ /*and (max-width:590px){ */
     #logo{
         margin-left: 1em;
     }
@@ -844,7 +844,7 @@ a{
    }
 }
 
-@media(min-width:591px) and (max-width:809px){
+/* @media(min-width:591px) and (max-width:809px){
     #imagem2{
         float: none;
         width: 100%;
@@ -889,9 +889,9 @@ a{
       #h2{
         padding: 4%;
      }
-}
+} */
 
-@media(min-width: 810px) and (max-width:1000px){
+@media(max-width: 810px){ /*and (max-width:1000px){*/
     #logo{
         margin-left: 1em;
     }
