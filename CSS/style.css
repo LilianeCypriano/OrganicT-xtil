@@ -527,6 +527,8 @@ width: 30%;
         box-shadow: 3px 3px 10px #8FBC8F;
         }
 
+
+
 }
 
 @media(min-width:430px) and (max-width:809px){
@@ -562,12 +564,10 @@ width: 30%;
         margin-left: 10%;
     }
 
-    .textoslogos{
-     align-items: center;
-     justify-items: center;
-     width: 100%;
-     margin-left: 0;
-     height: 136vh;
+    .T1{
+        font-size: 0.9rem;
+        text-align: center;
     }
+    
 }
   
