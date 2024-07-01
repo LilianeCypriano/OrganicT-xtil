@@ -29,6 +29,7 @@ nav ul {
     background-color: #75A47F; 
 }
 
+
 #letra {
     color: #fff;
     text-decoration: none;
@@ -165,35 +166,25 @@ legend{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
         
-
-
-
-    .img10 {
-        /* display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); */
-        
-        
+.img10 { 
         padding-top: 2rem;
         padding-bottom: 4rem;
         background-color:#a3b6ba;
-    }
+}
 
-    #imagem3 {
-        /* flex-direction: row;
-        align-items: center; */
+#imagem3 {
         float: right;
-        /* padding: 0.5rem; */
         gap: 0.5rem;
         margin-right: 5%;
         transition: 0.3s ease transform;
-    } 
+} 
 
-    #imagem3:hover{
+#imagem3:hover{
         transform: scale(0.95);
-    }
+}
 
 
-    /*Carrousel*/
+/*Carrousel*/
 
 .col{
 margin-bottom: 6%;
@@ -212,11 +203,6 @@ justify-content: center;
     font-size: 18px;
     color: rgb(71, 70, 70);
 }
-
-
-
-/*Carrousel*/
-
 
 
 /*Card acima do rodapé*/
@@ -259,14 +245,6 @@ justify-content: center;
     margin-bottom: 2%;
    }
 
-/* .carousel-control-prev{
-background-color: aqua;
-align-items: center;
-}
-
-.carousel-control-next{
-    background-color: aqua;
-} */
 
 .carousel-control-next-icon{
 background-color:#75A47F;
@@ -314,7 +292,6 @@ footer{
     font-size: 1.1rem;
     text-align: center;
     background-color: #75A47F;
-    /* margin-top: 250px; */
 } 
 
 .letras{
@@ -416,13 +393,6 @@ a{
     background-color: #a3b6ba;
     padding: 0.2em;
 }
-/* .botao2{
-    border: 2px solid rgb(253, 253, 253);
-    border-radius: 3px;
-    color: rgb(95, 93, 93);
-    background-color: #a3b6ba;
-    padding: 0.2em;
-} */
         
 .botao2:hover{
     color: rgb(70, 69, 69);
@@ -482,6 +452,28 @@ width: 30%;
     }
 
 
+
+
+/* carrousel */
+
+.carrouselt{
+    color: blue;
+    }
+    
+    .jumbotron{
+    background-color: rgb(196, 193, 193);
+    }
+    
+    #jumbotronresumo{
+        background-color: rgb(161, 133, 133);
+        }
+
+
+
+
+
+
+    
 @media (max-width: 390px) {
     
     #paragrafocar{
@@ -500,11 +492,6 @@ width: 30%;
     }
     .img10{
         float: none;
-        /* grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 20px;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;   */
     }
     #cartao1{
         grid-template-columns: 50px 50px 60px 50px;
