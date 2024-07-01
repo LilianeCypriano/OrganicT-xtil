@@ -36,11 +36,13 @@
               <a id="letra" class="nav-link" href="./index04.html">FÁBRICA / CURSOS</a>
             </li>
             <li class="nav-item">
-              <a id="letra" class="nav-link" href="./index05.html">CONTATO</a>
+              <a id="letra" class="nav-link" href="./carrinho.html">PEDIDOS</a>
             </li>
-            <li>
+          
               <a href=" ">
-                <img class="sacola" src="./IMG/sacola.png"  width="38px" height="38px" alt="">
+
+                <a href="./carrinho.html" > <img class="sacola" src="./IMG/sacola.png"  width="38px" height="38px" alt=""> </a>
+  
               </a>
             </li>
           </ul>
@@ -106,30 +108,24 @@
 
   <h1 class="titulo6">CAMISETAS E REGATAS</h1>
   
-  <!-- <div class="titulo6"> <b>CAMISETAS, BLUSAS E REGATAS</b></div> <br> <br> -->
-
   <!-- Inicio carrosel -->
+
 <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
   <div class="carousel-inner">
+
     <!-- Inicio primeira linha -->
     <div class="carousel-item active">
       <!-- inicio grid -->
       <div class="container">
         <div class="row">
           <div class="col">
-            <!-- inicio card -->
-            <!-- <div class="card" style="width: 18rem; background-color: #FBF8DD;">
-              <img src="./IMG/partesuperior.JPG" class="card-img-top" alt="...">
-            </div> -->
-            <!-- fim card -->
-
              <!-- inicio card -->
              <div class="card" style="width: 18rem; height: 28rem; background-color: #FBF8DD;">
               <img  src="./IMG/02.png"  height="258rem" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title" class="" >CAMISETA DE ALGODÃO ÔRGANICO FEMININA</h5>
-                <p class="card-text"><b>R$ 70,00</b></p>
-                <div class="botao1">
+                <h5 class="card-title" id="descricaoo"  >CAMISETA DE ALGODÃO ÔRGANICO FEMININA</h5>
+                <p class="card-text" id="valorr"  > <b>R$ 70,00</b></p>
+                <div class="botao1" id="tamanho" >
                   <button class="botao2"> <b>P</b></button>
                   <button class="botao2"> <b>M</b> </button>
                   <button class="botao2"><b>G</b> </button>
@@ -137,6 +133,7 @@
                 </div>
                 <div class="botao1">
                   <button onclick="adiciona()" class="botao"><b>ADICIONAR</b> </button>
+             
                 </div>
               </div>
             </div>
@@ -149,13 +146,13 @@
             <div class="card" style="width: 18rem; height: 28rem; background-color: #FBF8DD;">
               <img  src="./IMG/01.png"  height="258rem" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title" class="" >REGATA DE ALGODÃO ÔRGANICO MASCULINA </h5>
-                <p class="card-text"><b>R$ 59,90</b></p>
+                <h5 class="card-title" id="descricao1" >REGATA DE ALGODÃO ÔRGANICO MASCULINA </h5>
+                <p class="card-text"  id="valor1" ><b>R$ 59,90</b></p>
                 <div class="botao1">
-                  <button class="botao2"> <b>P</b></button>
-                  <button class="botao2"> <b>M</b> </button>
-                  <button class="botao2"><b>G</b> </button>
-                  <button class="botao2"> <b>GG</b> </button>
+                  <button class="botao2"  > <b>P</b></button>
+                  <button class="botao2"  > <b>M</b> </button>
+                  <button class="botao2"  > <b>G</b> </button>
+                  <button class="botao2"  > <b>GG</b> </button>
                 </div>
                 <div class="botao1">
                   <button onclick="adiciona()" class="botao"><b>ADICIONAR</b> </button>
@@ -165,34 +162,14 @@
             <!-- fim card -->
           </div>
 
-          <!-- <div class="col"> -->
-            <!-- inicio card -->
-            <!-- <div class="card" style="width: 18rem; background-color: #FBF8DD;">
-              <img src="./IMG/02.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">CAMISETA DE ALGODÃO ÔRGANICO FEMININA </h5>
-                <p class="card-text">R$ 70,00</p>
-                <div class="botao1">
-                  <button class="botao2"> <b>P</b></button>
-                  <button class="botao2"> <b>M</b> </button>
-                  <button class="botao2"><b>G</b> </button>
-                  <button class="botao2"> <b>GG</b> </button>
-                </div>
-                <div class="botao1">
-                  <button class="botao"><b>ADICIONAR</b> </button>
-                </div>
-              </div>
-            </div> -->
-            <!-- fim card -->
-          <!-- </div> -->
-
+    
           <div class="col">
             <!-- inicio card -->
             <div class="card" style="width: 18rem; height: 28rem; background-color: #FBF8DD;">
               <img id="02" src="./IMG/03.png" height="258rem" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">BLUSA DE ALGODÃO ÔRGANICO GOLA CANOA</h5>
-                <p class="card-text"> <b>R$ 75,00</b></p>
+                <h5 class="card-title" id="descricao2" >BLUSA DE ALGODÃO ÔRGANICO GOLA CANOA</h5>
+                <p class="card-text" id="valor2"> <b>R$ 75,00</b></p>
                 <div class="botao1">
                   <button class="botao2"> <b>P</b></button>
                   <button class="botao2"> <b>M</b> </button>
@@ -212,7 +189,8 @@
     </div>
     <!-- fim primeira linha -->
 
-    <!-- Inicio segunda linha (DO 1 CARD) -->
+
+    <!-- Inicio segunda linha (DO 1º CARD) -->
     <div class="carousel-item">
       <!-- inicio grid -->
       <div class="container">
@@ -222,8 +200,8 @@
             <div class="card" style="width: 18rem; height:28rem;  background-color: #FBF8DD;">
               <img id="03" src="./IMG/04.png" height="258rem" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">REGATA DE ALGODÃO ÔRGANICO FEMININO </h5>
-                <h6 class="card-text"> <b>R$ 80,00</b></h6>
+                <h5 class="card-title" >REGATA DE ALGODÃO ÔRGANICO FEMININO </h5>
+                <h6 class="card-text" > <b>R$ 80,00</b></h6>
                 <div class="botao1">
                   <button class="botao2"> <b>P</b></button>
                   <button class="botao2"> <b>M</b> </button>
@@ -278,33 +256,11 @@
             <!-- fim card -->
           </div>
 
-          <!-- <div class="col"> -->
-            <!-- inicio card -->
-            <!-- <div class="card" style="width: 18rem; background-color: #FBF8DD;">
-              <img src="./IMG/07.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">REGATA DE ALGODÃO ÔRGANICO FEMININA </h5>
-                <h6 class="card-text">R$ 59,90</h6>
-                <div class="botao1">
-                  <button class="botao2"> <b>P</b></button>
-                  <button class="botao2"> <b>M</b> </button>
-                  <button class="botao2"><b>G</b> </button>
-                  <button class="botao2"> <b>GG</b> </button>
-                </div>
-                <div class="botao1">
-                  <button class="botao"><b>ADICIONAR</b> </button>
-                </div>
-              </div>
-            </div> -->
-            <!-- fim card -->
-          <!-- </div> -->
         </div>
       </div>
       <!-- fim grid -->
     </div>
     <!-- fim segunda linha -->
-
-    
   
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
@@ -372,35 +328,7 @@
             <!-- fim card -->
           </div>
 
-          <!-- <div class="col"> -->
-            <!-- inicio card -->
-            <!-- <div class="card" style="width: 18rem; background-color: #FBF8DD;">
-              <img src="./IMG/11.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">CALÇA DE ALGODÃO ÔRGANICO MASCULINA</h5>
-                <p class="card-text">R$ 169,90</p>
-                <div class="botao1">
-                  <button class="botao2"> <b>P</b></button>
-                  <button class="botao2"> <b>M</b> </button>
-                  <button class="botao2"><b>G</b> </button>
-                  <button class="botao2"> <b>GG</b> </button>
-                </div>
-                <div class="botao1">
-                  <button class="botao"><b>ADICIONAR</b> </button>
-                </div>
-              </div>
-            </div> -->
-            <!-- fim card -->
-          <!-- </div> -->
-
-
-          <div class="col">
-            <!-- inicio card -->
-            <!-- <div class="card" style="width: 18rem;  background-color: #FBF8DD;">
-              <img src="./IMG/parteinferior.JPG"  class="card-img-top" alt="...">
-            </div> -->
-            <!-- fim card -->
-           
+          <div class="col">           
            <!-- inicio card -->
            <div class="card" style="width: 18rem; height: 31rem; background-color: #FBF8DD;">
             <img src="./IMG/calça.png" height="316rem" class="card-img-top" alt="...">
@@ -419,10 +347,7 @@
             </div>
           </div>
           <!-- fim card -->
-
-
           </div>
-
         </div>
       </div>
       <!-- fim grid -->
@@ -494,27 +419,6 @@
             </div>
             <!-- fim card -->
           </div>
-
-          <!-- <div class="col"> -->
-            <!-- inicio card -->
-            <!-- <div class="card" style="width: 18rem; background-color: #FBF8DD;">
-              <img src="./IMG/16.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">VESTIDO DE ALGODÃO ÔRGANICO </h5>
-                <h6 class="card-text">R$ 199,90</h6>
-                <div class="botao1">
-                  <button class="botao2"> <b>P</b></button>
-                  <button class="botao2"> <b>M</b> </button>
-                  <button class="botao2"><b>G</b> </button>
-                  <button class="botao2"> <b>GG</b> </button>
-                </div>
-                <div class="botao1">
-                  <button class="botao"><b>ADICIONAR</b> </button>
-                </div>
-              </div>
-            </div> -->
-            <!-- fim card -->
-          <!-- </div> -->
         </div>
       </div>
       <!-- fim grid -->
@@ -545,12 +449,7 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <!-- inicio card -->
-              <!-- <div class="card" style="width: 18rem; background-color: #FBF8DD;">
-                <img src="./IMG/acessorio.JPG" class="card-img-top" alt="...">
-              </div>
-              fim card -->
-              
+      
                <!-- inicio card -->
                <div class="card" style="width: 18rem; height: 27.5rem; background-color: #FBF8DD;">
                 <img src="./IMG/tapete.png" height="285rem" class="card-img-top" alt="...">
@@ -583,26 +482,7 @@
               </div>
               <!-- fim card -->
             </div>
-            <!-- <div class="col"> -->
-              <!-- inicio card -->
-              <!-- <div class="card" style="width: 18rem; background-color: #FBF8DD;">
-                <img src="./IMG/18.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">PULSEIRA FIBRA DE BANANA </h5>
-                  <p class="card-text">R$ 70,00</p>
-                  <div class="botao1">
-                    <button class="botao2"> <b>P</b></button>
-                    <button class="botao2"> <b>M</b> </button>
-                    <button class="botao2"><b>G</b> </button>
-                    <button class="botao2"> <b>GG</b> </button>
-                  </div>
-                  <div class="botao1">
-                    <button class="botao"><b>ADICIONAR</b> </button>
-                  </div>
-                </div>
-              </div> -->
-              <!-- fim card -->
-            <!-- </div> -->
+     
             <div class="col">
               <!-- inicio card -->
               <div class="card" style="width: 18rem; height: 27.5rem; background-color: #FBF8DD;">
@@ -672,7 +552,7 @@
                   <div class="botao1">
                   </div>
                   <div class="botao1">
-                    <button onclick="adiciona()" class="botao"><b>ADICIONAR</b> </button>
+                    <button onclick="adicionaao" class="botao"><b>ADICIONAR</b> </button>
                   </div>
                 </div>
               </div>
@@ -712,6 +592,8 @@
         produzidas as peças.</b> 
       </p>
   </section>
+
+
  
   <footer>
     <a id="top" href="#">&#9650;<br> <img src="./IMG/logo.png" width="35em" height="35em" alt=""> </a>
@@ -726,7 +608,7 @@
         <h2>PRECISAMOS DO SEU E-MAIL PARA TE ENVIAR AS NOVIDADES</h2>
         <div class="labelInput">
             <label><b>E-mail: </b></label>
-           <span><input type="text" class="input"> <button class="botao4"> Enviar</button></span>
+           <span><input type="text" class="input">  <button class="botao2"> Enviar</button>
         </div>
         <div id="letrao">
           <p class="letras"><a href="./index02.html">Cadastre-se |</a></p><p id="sessãoca" class="letras"><a href="./index03.html">Iniciar sessão</a></p>
@@ -751,7 +633,10 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <script src="./JS/main.js"></script>
+    crossorigin="anonymous" async></script>
+  <script src="./JS/main.js" async></script>
+  <script src="./JS/index.js" async></script>
+  
+ 
 </body>
 </html>
