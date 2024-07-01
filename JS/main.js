@@ -1,4 +1,15 @@
+const adiciona = () => {
+  let carrinho = document.getElementsByClassName("botao");
 
+  if (carrinho.length > 0) {
+      alert("O item foi adicionado à sacola!");
+      let sacola = "";
+      for (let i = 0; i < carrinho.length; i++) {
+          sacola += carrinho[i].innerText + "opa ";
+      }
+      console.log(sacola);
+  }
+}
 
 
 $(".slider").slick({
@@ -67,18 +78,7 @@ $(element).slick('slickSetOption', 'speed', 5000, true);
 $(element).slick('unslick');
 
 
-const adiciona = () => {
-  let carrinho = document.getElementsByClassName("botao");
 
-  if (carrinho.length > 0) {
-      alert("O item foi adicionado à sacola!");
-      let sacola = "";
-      for (let i = 0; i < carrinho.length; i++) {
-          sacola += carrinho[i].innerText + "opa ";
-      }
-      console.log(sacola);
-  }
-}
 
 
 
