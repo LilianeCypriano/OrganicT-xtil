@@ -559,12 +559,15 @@ width: 30%;
 
 @media(max-width: 430px){
     .row{
-        margin-left: 18%;
+        margin-left: 12%;
     }
 
     .textoslogos{
      align-items: center;
      justify-items: center;
+     width: 100%;
+     margin-left: 0;
+     height: 136vh;
     }
 }
   
