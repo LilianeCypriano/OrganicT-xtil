@@ -529,7 +529,7 @@ width: 30%;
 
 }
 
-@media(min-width:430px) and (max-width:610px){
+@media(min-width:430px) and (max-width:809px){
     .textoslogos{
         margin-top: 2%;
     }
