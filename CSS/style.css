@@ -562,6 +562,9 @@ width: 30%;
         margin-left: 18%;
     }
 
-    
+    .textoslogos{
+     align-items: center;
+     justify-items: center;
+    }
 }
   
