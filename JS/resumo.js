@@ -20,13 +20,7 @@ for (var i = 0; i < removeProductButtons.length; i++) {
  const quantityInputs = document.getElementsByClassName("product-qtd-input")
  for (var i = 0; i < quantityInputs.length; i++) {
    quantityInputs[i].addEventListener("change", updateTotal)
-
-
-
  }
-
-
-    
 
 function updateTotal() {
     const cartProducts = document.getElementsByClassName("cart-product")
