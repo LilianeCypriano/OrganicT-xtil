@@ -539,17 +539,32 @@ width: 30%;
         margin-left: 12%;
     }
     #cartao{
-         margin-left: 16%;
+         margin-left: 18%;
     }
     #caminhao{
         margin-left: 8%;
     }
     #freteg{
-         margin-left: 12%;
+         margin-left: 18%;
     }
     #cartaocompras{
-        padding: 0px;
+       padding: 0%;
     }
+    #imamundo{
+        margin-left: 4%;
+    }
+    #imacartao{
+        margin-left: 4%;
+    }
+    #imafrete{
+        margin-left: 4%;
+    }
+}
+
+@media(min-width:400px) and (max-width:809px){
+      .carroselcentro{
+        margin-left: 4em;
+      }
 }
 
 

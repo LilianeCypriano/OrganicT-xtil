@@ -134,14 +134,6 @@ iframe{
     animation: pracima 2.0s infinite ease-in-out;
 }
 
-#imagem:hover{
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-     transform: scale(1.1);
-} 
-
 @keyframes pracima{
     50% {
         transform: translateY(-3%)
@@ -296,7 +288,6 @@ footer{
 footer h2 {
     color: #fff;
     font-size: 1rem;
-    
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -365,6 +356,7 @@ a{
     text-decoration: none;
 }
 
+
 .botao4{
     border: 2px solid rgb(253, 253, 253);
     border-radius: 3px;
@@ -430,6 +422,11 @@ a{
         height: 46vh;
         margin-left: 0;
         margin-bottom: 5%;
+    }
+    @keyframes pracima{
+        50% {
+            transform: translateY(-2%)
+        }
     }
     #paracurso{
         font-size: 20px;
@@ -538,236 +535,6 @@ a{
         }
 }
 
-/* @media(max-width: 350px){
-    #imagem2{
-        float: none;
-        width: 100%;
-    }
-    #logo{
-        margin-left: 1em;
-    }
-      #fundo{
-        height: 92vh;
-      }
-      #parafabrica{
-        font-size: 22px;
-      }
-      #container2{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-      }
-      #card1, #card2{
-        margin-bottom: 2%;
-        width: 90%;
-      }
-      #Localização{
-        font-size: 26px;
-      }
-      #processo{
-        font-size: 16px;
-        font-weight: 700;
-      }
-      #imagem{
-        width: 100%;
-        float: none;
-      }
-      #Cursos2{
-        margin: 0;
-        width: 100%;
-        height: 88vh;
-      }
-      #butao1{
-        width: 26%;
-        margin-top: 2%;
-       font-size: 10px;
-      }
-      #h2{
-        padding: 4%;
-      }
-      #modulo{
-        height: 300vh;
-      }
-      #modulo1, #modulo2, #modulo3{
-        text-align: center;
-      }
-      #modulo1:hover{
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -o-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-    #modulo2:hover{
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -o-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-    #modulo3:hover{
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -o-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-    #cartao1{
-        grid-template-columns: 70px 80px 80px 80px;
-    }
-} */
-
-
-/* @media(max-width: 375px){
-    #logo{
-        margin-left: 1em;
-    }
-    #imagem2{
-        float: none;
-        width: 100%;
-    }
-    #fundo{
-        height: 100vh;
-    }
-     #container2{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-      }
-      #card1, #card2{
-        margin-bottom: 2%;
-        width: 90%;
-        height: 130vh;
-      }
-      #Localização{
-        font-size: 26px;
-      }
-      #processo{
-        font-size: 18px;
-        font-weight: 700;
-     }
-     #imagem{
-        width: 100%;
-        float: none;
-      }
-      #Cursos2{
-        margin: 0;
-        width: 100%;
-        height: 88vh;
-      }
-      #butao1{
-        width: 30%;
-        margin-top: 2%;
-        font-size: 12px;
-      }
-      #h2{
-        padding: 4%;
-     }
-      #modulo{
-        height: 300vh;
-      }
-     #modulo1, #modulo2, #modulo3{
-        text-align: center;
-     }
-     #modulo1:hover{
-       -webkit-transform: scale(1.1);
-       -moz-transform: scale(1.1);
-       -o-transform: scale(1.1);
-       -ms-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-     #modulo2:hover{
-       -webkit-transform: scale(1.1);
-       -moz-transform: scale(1.1);
-       -o-transform: scale(1.1);
-       -ms-transform: scale(1.1);
-       transform: scale(1.1);
-   }
-   #modulo3:hover{
-       -webkit-transform: scale(1.1);
-       -moz-transform: scale(1.1);
-       -o-transform: scale(1.1);
-       -ms-transform: scale(1.1);
-        transform: scale(1.1);
-   }
-   #cartao1{
-       grid-template-columns: 70px 80px 80px 80px;
-   }
-   } */
-
-/* @media(max-width: 390px){
-    #logo{
-        margin-left: 1em;
-    }
-    #imagem2{
-        float: none;
-        width: 100%;
-    }
-    #fundo{
-        height: 100vh;
-    }
-     #container2{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-      }
-      #card1, #card2{
-        margin-bottom: 2%;
-        width: 90%;
-        height: 130vh;
-      }
-      #Localização{
-        font-size: 26px;
-      }
-      #processo{
-        font-size: 18px;
-        font-weight: 700;
-     }
-     #imagem{
-        width: 100%;
-        float: none;
-      }
-      #Cursos2{
-        margin: 0;
-        width: 100%;
-        height: 88vh;
-      }
-      #butao1{
-        width: 30%;
-        margin-top: 2%;
-        font-size: 12px;
-      }
-      #h2{
-        padding: 4%;
-     }
-      #modulo{
-        height: 300vh;
-      }
-     #modulo1, #modulo2, #modulo3{
-        text-align: center;
-     }
-     #modulo1:hover{
-       -webkit-transform: scale(1.1);
-       -moz-transform: scale(1.1);
-       -o-transform: scale(1.1);
-       -ms-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-     #modulo2:hover{
-       -webkit-transform: scale(1.1);
-       -moz-transform: scale(1.1);
-       -o-transform: scale(1.1);
-       -ms-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-     #modulo3:hover{
-       -webkit-transform: scale(1.1);
-       -moz-transform: scale(1.1);
-       -o-transform: scale(1.1);
-       -ms-transform: scale(1.1);
-        transform: scale(1.1);
-   }
-   #cartao1{
-       grid-template-columns: 70px 80px 80px 80px;
-   }
-} */
 
 @media(max-width: 430px){
     #logo{
@@ -800,6 +567,11 @@ a{
         width: 100%;
         float: none;
       }
+      @keyframes pracima{
+        50% {
+            transform: translateY(-2%)
+        }
+    }
       #Cursos2{
         margin: 0;
         width: 100%;
@@ -814,7 +586,7 @@ a{
         padding: 4%;
      }
       #modulo{
-        height: 300vh;
+        height: 270vh;
       }
      #modulo1:hover{
        -webkit-transform: scale(1.1);
@@ -842,7 +614,7 @@ a{
    }
 }
 
-@media(max-width: 810px){
+/* @media(max-width: 810px){
     #logo{
         margin-left: 1em;
     }
@@ -913,6 +685,6 @@ a{
    #cartao1{
        grid-template-columns: 70px 80px 80px 80px;
    }
-}
+} */
 
 
