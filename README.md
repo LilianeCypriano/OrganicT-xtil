@@ -14,7 +14,8 @@ Github
 Design:
 Figma
 Canva
-Utilitários (Opcional)
-[Link Figma] https://www.figma.com/design/uNFtALDJBR1wPeOjOztnhW/Untitled?node-id=84-3&t=y3FD1Y3liDOKsEYt-0
+
+
+[Link Figma] https://www.figma.com/design/uNFtALDJBR1wPeOjOztnhW/Untitled?node-id=0-1&node-type=canvas&t=YxnG3tXQTndo0UVU-0
 
 [Link Canva] https://www.canva.com/design/DAGG2G_b6h4/mMBxRmPhrtG7HZ8y_BBAWw/edit
